@@ -103,6 +103,10 @@ header{
     display:block;
     float:right;
 }
+.Edit-content{ 
+float:right;
+color: #070707;
+}
 #Footer{
     box-shadow: -3px 5px 7px 2px rgba(0,0,0,0.51);
     background-color: rgb(13, 207, 241);

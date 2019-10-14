@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
         <script type="text/javascript" src="script.js"></script>
     </head>
-<body class="body-background">
+<body class="body-background" onload="randombackgroundcolor()">
     <div id="header">
             <div class="nav">
                     <ul>
@@ -33,10 +33,11 @@
         <div id="Profile">
            <img src="image/Profile-image.jpg"style="width:100%" alt="profile image">
                  <ul style="list-style-type:none;">
-                    <li><p><i class="material-icons">account_circle</i> Panuwat Chiawchansilp (A)</p></li>
-                    <li><p><i class="material-icons">home</i> Charansanitwong,Bangphat,Bangkok</p></li>
-                    <li><p><i class="material-icons">email</i> panuwat33586@gmail.com</p></li>
-                    <li><p><i class="material-icons">call</i> 090-991-2870</p></li>
+                    <li><i class="material-icons">account_circle</i><p id=nameinfo> Panuwat Chiawchansilp (A)
+                    <button onclick="nameedit()">Edit</button></p></li>
+                    <li><i class="material-icons">home</i> <p>Charansanitwong,Bangphat,Bangkok</p></li>
+                    <li><i class="material-icons">email</i><p> panuwat33586@gmail.com</p></li>
+                    <li><i class="material-icons">call</i><p> 090-991-2870</p></li>
                  </ul>
         </div>
     <!--right-content-->
@@ -67,13 +68,17 @@ Faculty of Agro-Industry, Kasetsart University, Bangkok, Thailand with cumulativ
         </div>
         <div id="Skill">
             <h1>
-                <i class="material-icons">
-                     emoji_symbols
+                <i class="material-icons"> emoji_symbols
                 </i>
-                Skills:</h1>
-            <h2>Language skill
+                Skills:
+            </h1>
+            <div class="Edit-content">
+                    <button type="button" onclick="skilledit()"><i  class="material-icons ">edit</i>Edit</button>
+                    </div> 
+            <h2>
+                Language skill      
             </h2>
-                   <p>- Fluently in speaking, listening and writing Thai language.</br>
+                   <p id="skill-content">- Fluently in speaking, listening and writing Thai language.</br>
                     - Good in speaking, listening and writing English language
                     (TOEIC score: 880)</br>
                     - Fair in speaking, listening and writing Chinese Language 
