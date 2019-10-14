@@ -1,0 +1,174 @@
+h2,h3,p{
+    color: black;
+    font-family:'Patua One', cursive;
+}
+h1{
+    color: black;
+    font-family:'Pacifico', cursive;
+}
+header{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+#header{
+    background-image: url("https://www.flowerglossary.com/wp-content/uploads/2017/09/balloon-flower.jpg");
+    background-size:cover;
+    background-position-y: 50%;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+    width: 100%;
+    height:600px;
+    font-size: 20px;
+}
+.body-background{
+    background-color: #85858552;
+}
+#content {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*nav-function*/
+.nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 15px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav li{
+    float:right;
+}
+.nav li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+#Profile{
+    box-shadow: -3px 5px 7px 2px rgba(0,0,0,0.51);
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin: auto;
+    padding-left: 2px ;
+    padding-right: 5px;
+    text-align:left;
+    display:block;
+    float:left;
+    word-break: break-all;
+}
+#Education{
+        box-shadow: -3px 5px 7px 2px rgba(0,0,0,0.51);
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        width: 60%;
+        margin: auto;
+        padding-left:50px;
+        padding-right:5px;
+        text-align:left;
+        display:block;
+        float:right;
+}  
+#Working-experiences{
+    box-shadow: -3px 5px 7px 2px rgba(0,0,0,0.51);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin-top: 20px;
+    padding-left:50px;
+    padding-right:5px;
+    text-align:left;
+    display:block;
+    float:right;
+}  
+#Skill{
+    box-shadow: -3px 5px 7px 2px rgba(0,0,0,0.51);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin-top: 20px;
+    padding-left:50px;
+    padding-right:5px;
+    text-align:left;
+    display:block;
+    float:right;
+}
+#Footer{
+    box-shadow: -3px 5px 7px 2px rgba(0,0,0,0.51);
+    background-color: rgb(13, 207, 241);
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    text-align:center;
+    display:inline-block;
+    float:none;
+} 
+
+/*Icon Rules*/ 
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-78 { font-size: 78px; }
+ 
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+ 
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+ 
+.material-icons.orange600 { color: #FB8C00; }
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+    width:10px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+    width:10px;
+  }
+  /*gmail*/
+  .fa-google{
+    background: rgb(243, 160, 6);
+    color: white;
+    border-radius: 50%;
+    width:10px;
+  }
+  
