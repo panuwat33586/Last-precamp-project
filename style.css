@@ -114,7 +114,62 @@ header{
     display:inline-block;
     float:none;
 } 
-
+/*responsive*/
+@media only screen and (max-width: 620px) {
+    .nav li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    }
+}
+@media only screen and (max-width: 910px) {
+    #content{
+        width: 100%;
+    } 
+    #Profile{
+    width: 100%;
+    margin: auto;
+    padding-left: 2px ;
+    padding-right: 5px;
+    text-align:left;
+    display:block;
+    float:none;
+    word-break: break-all;
+    }
+    #Education{
+    width: 100%;
+    margin: auto;
+    padding-left: 2px ;
+    padding-right: 5px;
+    text-align:left;
+    display:block;
+    float:none;
+    word-break: break-all;
+    }
+    #Working-experiences{
+    width: 100%;
+    margin: auto;
+    padding-left: 2px ;
+    padding-right: 5px;
+    text-align:left;
+    display:block;
+    float:none;
+    word-break: break-all;
+    }
+    #Skill{
+    width: 100%;
+    margin: auto;
+    padding-left: 2px ;
+    padding-right: 5px;
+    text-align:left;
+    display:block;
+    float:none;
+    word-break: break-all;
+    }
+}
 /*Icon Rules*/ 
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
